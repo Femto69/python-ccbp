@@ -1,0 +1,5 @@
+N=input()
+E=input()
+n=int(N)
+e=int(E)
+print(n**e)
