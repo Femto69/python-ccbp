@@ -1,0 +1,10 @@
+N=input()
+n=int(N)
+s=str(N)
+l1=len(s)
+sq=str(n**2)
+l2=len(sq)
+if(sq[l2-1]==s[l1-1]):
+    print("Equal")
+else:
+    print("Not Equal")
