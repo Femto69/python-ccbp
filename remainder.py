@@ -1,0 +1,10 @@
+A=input()
+B=input()
+a=int(A)
+b=int(B)
+r1=a%b  
+r2=b%a 
+if(r1>r2):
+    print(r2)
+else:
+    print(r1)
