@@ -1,0 +1,10 @@
+A=input()
+B=input()
+a=int(A)
+b=int(B)
+if(a>b):
+    print("Win")
+elif(a==b):
+    print("Draw")
+else:
+    print("Lose")
