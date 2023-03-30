@@ -1,0 +1,16 @@
+n=int(input())
+for i in range(1,n+1):
+    str1=" "*(i-1)+""
+    s1=1
+    s2=1
+    if(i==1 or i==n):
+        for j in range(0,n+1-i):
+            str1=str1+str(s1+j)+" "
+        print(str1)
+    else:
+        for k in range(0,n+1-i):
+            if(k==0 or k==n-i):
+                str1=str1+str(s2+k)+" "
+            else:
+                str1=str1+" "+" "
+        print(str1)

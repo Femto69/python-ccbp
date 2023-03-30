@@ -1,0 +1,24 @@
+m=int(input())
+n=int(input())
+for i in range(1,m+1):
+    str1=""
+    s1=7
+    s2=7
+    if(i==1 or i==m):
+        for j in range(0,n):
+            str1=str1+str(s1+j)+" "
+        print(str1)
+    else:
+        for k in range(0,n):
+            if(k==0 or k==n-1):
+                str1=str1+str(s2+k)+" "
+            else:
+                str1=str1+" "+" "
+        print(str1)
+#(in the above code how is it that when we enter 5 and 8 as input it doeen't give a rectangle and some weird pattern. please explain?)
+# the output when we enter 5 and 8 is 
+# 7 8 9 10 11 12 13 14 
+# 7             14    
+# 7             14
+# 7             14
+# 7 8 9 10 11 12 13 14
